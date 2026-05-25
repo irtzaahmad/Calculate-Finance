@@ -1,0 +1,77 @@
+/**
+ * CalcFinance Admin Styles
+ *
+ * @package CalcFinance
+ */
+
+/* Custom meta box styling */
+.calcfinance-meta-box {
+    padding: 1rem;
+}
+
+.calcfinance-meta-box label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #23282d;
+}
+
+.calcfinance-meta-box input[type="text"],
+.calcfinance-meta-box input[type="number"],
+.calcfinance-meta-box textarea,
+.calcfinance-meta-box select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.calcfinance-meta-box .description {
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Post list columns */
+.column-views {
+    width: 80px;
+    text-align: center;
+}
+
+.column-reading_time {
+    width: 100px;
+    text-align: center;
+}
+
+/* Dashboard widget */
+.calcfinance-dashboard-widget {
+    padding: 1rem;
+}
+
+.calcfinance-dashboard-widget .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.calcfinance-dashboard-widget .stat-item {
+    background: #f0f0f1;
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.calcfinance-dashboard-widget .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1d2327;
+}
+
+.calcfinance-dashboard-widget .stat-label {
+    font-size: 0.8rem;
+    color: #646970;
+    margin-top: 0.25rem;
+}
